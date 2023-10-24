@@ -26,7 +26,7 @@ def decryption(text):
 
 
 text = 'hello world'
-print("şifrelenmiş metin",encryption(text))
-print("çözülmüş metin:",decryption(encryption(text)))
+print("encryption text : ",encryption(text))
+print("decryption text :",decryption(encryption(text)))
 
 
